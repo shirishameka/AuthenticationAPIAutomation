@@ -190,7 +190,7 @@
           <div class="suite-Test_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.automation.LoginTest</span>
+              <span class="class-name">com.automation.SignUpAndSignInFlowTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -198,41 +198,8 @@
                   <a name="login">
                   </a> <!-- login -->
                   <span class="method-name">login</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginWithEmptyBody">
-                  </a> <!-- loginWithEmptyBody -->
-                  <span class="method-name">loginWithEmptyBody</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginWithInvalidEmaid">
-                  </a> <!-- loginWithInvalidEmaid -->
-                  <span class="method-name">loginWithInvalidEmaid</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginWithInvalidPassword">
-                  </a> <!-- loginWithInvalidPassword -->
-                  <span class="method-name">loginWithInvalidPassword</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginWithoutEmailId">
-                  </a> <!-- loginWithoutEmailId -->
-                  <span class="method-name">loginWithoutEmailId</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginWithoutPassword">
-                  </a> <!-- loginWithoutPassword -->
-                  <span class="method-name">loginWithoutPassword</span>
+                  <em>
+(Here token from sign-up api is used as query param , but there is a bug in api, where it is not validating i)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -297,7 +264,7 @@
           <div class="suite-Test_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.automation.SignUpAndSignInFlowTest</span>
+              <span class="class-name">com.automation.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -305,8 +272,41 @@
                   <a name="login">
                   </a> <!-- login -->
                   <span class="method-name">login</span>
-                  <em>
-(Here token from sign-up api is used as query param , but there is a bug in api, where it is not validating i)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithEmptyBody">
+                  </a> <!-- loginWithEmptyBody -->
+                  <span class="method-name">loginWithEmptyBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInvalidEmaid">
+                  </a> <!-- loginWithInvalidEmaid -->
+                  <span class="method-name">loginWithInvalidEmaid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInvalidPassword">
+                  </a> <!-- loginWithInvalidPassword -->
+                  <span class="method-name">loginWithInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithoutEmailId">
+                  </a> <!-- loginWithoutEmailId -->
+                  <span class="method-name">loginWithoutEmailId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithoutPassword">
+                  </a> <!-- loginWithoutPassword -->
+                  <span class="method-name">loginWithoutPassword</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -390,68 +390,68 @@ data.addRows(15);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'registrationOfUser')
 data.setCell(0, 2, 'com.automation.SignUpTest')
-data.setCell(0, 3, 2964);
+data.setCell(0, 3, 2857);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'signUpWithoutEmail')
+data.setCell(1, 1, 'registrationOfUserWithExistingEmail')
 data.setCell(1, 2, 'com.automation.SignUpTest')
-data.setCell(1, 3, 1937);
+data.setCell(1, 3, 1645);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'registrationOfUser')
 data.setCell(2, 2, 'com.automation.SignUpAndSignInFlowTest')
-data.setCell(2, 3, 1812);
+data.setCell(2, 3, 1489);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'registrationOfUserWithExistingEmail')
-data.setCell(3, 2, 'com.automation.SignUpTest')
-data.setCell(3, 3, 1776);
+data.setCell(3, 1, 'registrationOfUser')
+data.setCell(3, 2, 'com.automation.LoginTest')
+data.setCell(3, 3, 1447);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'signUpWithEmptyBody')
-data.setCell(4, 2, 'com.automation.SignUpTest')
-data.setCell(4, 3, 1583);
+data.setCell(4, 1, 'loginWithInvalidPassword')
+data.setCell(4, 2, 'com.automation.LoginTest')
+data.setCell(4, 3, 1376);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'loginWithoutEmailId')
+data.setCell(5, 1, 'loginWithInvalidEmaid')
 data.setCell(5, 2, 'com.automation.LoginTest')
-data.setCell(5, 3, 1455);
+data.setCell(5, 3, 1323);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'registrationOfUser')
-data.setCell(6, 2, 'com.automation.LoginTest')
-data.setCell(6, 3, 1344);
+data.setCell(6, 1, 'login')
+data.setCell(6, 2, 'com.automation.SignUpAndSignInFlowTest')
+data.setCell(6, 3, 1282);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'signUpWithoutpassword')
 data.setCell(7, 2, 'com.automation.SignUpTest')
-data.setCell(7, 3, 1336);
+data.setCell(7, 3, 1233);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'login')
-data.setCell(8, 2, 'com.automation.LoginTest')
-data.setCell(8, 3, 1318);
+data.setCell(8, 1, 'signUpWithoutName')
+data.setCell(8, 2, 'com.automation.SignUpTest')
+data.setCell(8, 3, 1229);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'loginWithoutPassword')
+data.setCell(9, 1, 'login')
 data.setCell(9, 2, 'com.automation.LoginTest')
-data.setCell(9, 3, 1306);
+data.setCell(9, 3, 1215);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'login')
-data.setCell(10, 2, 'com.automation.SignUpAndSignInFlowTest')
-data.setCell(10, 3, 1278);
+data.setCell(10, 1, 'loginWithEmptyBody')
+data.setCell(10, 2, 'com.automation.LoginTest')
+data.setCell(10, 3, 1155);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'loginWithInvalidEmaid')
-data.setCell(11, 2, 'com.automation.LoginTest')
-data.setCell(11, 3, 1212);
+data.setCell(11, 1, 'signUpWithEmptyBody')
+data.setCell(11, 2, 'com.automation.SignUpTest')
+data.setCell(11, 3, 1127);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'signUpWithoutName')
-data.setCell(12, 2, 'com.automation.SignUpTest')
-data.setCell(12, 3, 1210);
+data.setCell(12, 1, 'loginWithoutPassword')
+data.setCell(12, 2, 'com.automation.LoginTest')
+data.setCell(12, 3, 1110);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'loginWithInvalidPassword')
-data.setCell(13, 2, 'com.automation.LoginTest')
-data.setCell(13, 3, 1199);
+data.setCell(13, 1, 'signUpWithoutEmail')
+data.setCell(13, 2, 'com.automation.SignUpTest')
+data.setCell(13, 3, 1106);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'loginWithEmptyBody')
+data.setCell(14, 1, 'loginWithoutEmailId')
 data.setCell(14, 2, 'com.automation.LoginTest')
-data.setCell(14, 3, 1150);
+data.setCell(14, 3, 1097);
 window.suiteTableData['Test_suite']= { tableData: data, tableDiv: 'times-div-Test_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Test_suite">
               </div> <!-- times-div-Test_suite -->
             </div> <!-- times-div -->
@@ -484,77 +484,77 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">registrationOfUser</span>
-                <span class="method-start">26 ms</span>
+                <span class="method-start">30 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">registrationOfUserWithExistingEmail</span>
-                <span class="method-start">2992 ms</span>
+                <span class="method-start">2892 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">signUpWithEmptyBody</span>
-                <span class="method-start">4769 ms</span>
+                <span class="method-start">4537 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">signUpWithoutName</span>
-                <span class="method-start">6353 ms</span>
+                <span class="method-start">5665 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">signUpWithoutEmail</span>
-                <span class="method-start">7564 ms</span>
+                <span class="method-start">6895 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">signUpWithoutpassword</span>
-                <span class="method-start">9501 ms</span>
+                <span class="method-start">8002 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.automation.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">15853 ms</span>
+                <span class="method-start">14255 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">registrationOfUser</span>
-                <span class="method-start">15854 ms</span>
+                <span class="method-start">14255 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">17198 ms</span>
+                <span class="method-start">15702 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginWithEmptyBody</span>
-                <span class="method-start">18517 ms</span>
+                <span class="method-start">16917 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginWithInvalidEmaid</span>
-                <span class="method-start">19668 ms</span>
+                <span class="method-start">18072 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginWithInvalidPassword</span>
-                <span class="method-start">20881 ms</span>
+                <span class="method-start">19395 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginWithoutEmailId</span>
-                <span class="method-start">22080 ms</span>
+                <span class="method-start">20772 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginWithoutPassword</span>
-                <span class="method-start">23535 ms</span>
+                <span class="method-start">21869 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.automation.SignUpAndSignInFlowTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">29848 ms</span>
+                <span class="method-start">27989 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">registrationOfUser</span>
-                <span class="method-start">29849 ms</span>
+                <span class="method-start">27990 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">31661 ms</span>
+                <span class="method-start">29480 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -2,88 +2,88 @@
 <testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="Test suite" duration-ms="32940" started-at="2020-04-03T07:05:32Z" finished-at="2020-04-03T07:06:05Z">
+  <suite name="Test suite" duration-ms="30764" started-at="2020-04-03T07:09:54Z" finished-at="2020-04-03T07:10:25Z">
     <groups>
     </groups>
-    <test name="SignUp" duration-ms="10839" started-at="2020-04-03T07:05:32Z" finished-at="2020-04-03T07:05:42Z">
+    <test name="SignUp" duration-ms="9236" started-at="2020-04-03T07:09:54Z" finished-at="2020-04-03T07:10:03Z">
       <class name="com.automation.SignUpTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.SignUpTest@4f933fd1]" name="setUp" is-config="true" duration-ms="11" started-at="2020-04-03T07:05:32Z" finished-at="2020-04-03T07:05:32Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.SignUpTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="13" started-at="2020-04-03T07:09:54Z" finished-at="2020-04-03T07:09:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registrationOfUser()[pri:0, instance:com.automation.SignUpTest@4f933fd1]" name="registrationOfUser" duration-ms="2964" started-at="2020-04-03T07:05:32Z" finished-at="2020-04-03T07:05:35Z">
+        <test-method status="PASS" signature="registrationOfUser()[pri:0, instance:com.automation.SignUpTest@2a2d45ba]" name="registrationOfUser" duration-ms="2857" started-at="2020-04-03T07:09:54Z" finished-at="2020-04-03T07:09:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationOfUser -->
-        <test-method status="PASS" signature="registrationOfUserWithExistingEmail()[pri:1, instance:com.automation.SignUpTest@4f933fd1]" name="registrationOfUserWithExistingEmail" duration-ms="1776" started-at="2020-04-03T07:05:35Z" finished-at="2020-04-03T07:05:36Z">
+        <test-method status="PASS" signature="registrationOfUserWithExistingEmail()[pri:1, instance:com.automation.SignUpTest@2a2d45ba]" name="registrationOfUserWithExistingEmail" duration-ms="1645" started-at="2020-04-03T07:09:57Z" finished-at="2020-04-03T07:09:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationOfUserWithExistingEmail -->
-        <test-method status="PASS" signature="signUpWithEmptyBody()[pri:2, instance:com.automation.SignUpTest@4f933fd1]" name="signUpWithEmptyBody" duration-ms="1583" started-at="2020-04-03T07:05:36Z" finished-at="2020-04-03T07:05:38Z">
+        <test-method status="PASS" signature="signUpWithEmptyBody()[pri:2, instance:com.automation.SignUpTest@2a2d45ba]" name="signUpWithEmptyBody" duration-ms="1127" started-at="2020-04-03T07:09:58Z" finished-at="2020-04-03T07:10:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpWithEmptyBody -->
-        <test-method status="PASS" signature="signUpWithoutName()[pri:3, instance:com.automation.SignUpTest@4f933fd1]" name="signUpWithoutName" duration-ms="1210" started-at="2020-04-03T07:05:38Z" finished-at="2020-04-03T07:05:39Z">
+        <test-method status="PASS" signature="signUpWithoutName()[pri:3, instance:com.automation.SignUpTest@2a2d45ba]" name="signUpWithoutName" duration-ms="1229" started-at="2020-04-03T07:10:00Z" finished-at="2020-04-03T07:10:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpWithoutName -->
-        <test-method status="PASS" signature="signUpWithoutEmail()[pri:4, instance:com.automation.SignUpTest@4f933fd1]" name="signUpWithoutEmail" duration-ms="1937" started-at="2020-04-03T07:05:39Z" finished-at="2020-04-03T07:05:41Z">
+        <test-method status="PASS" signature="signUpWithoutEmail()[pri:4, instance:com.automation.SignUpTest@2a2d45ba]" name="signUpWithoutEmail" duration-ms="1106" started-at="2020-04-03T07:10:01Z" finished-at="2020-04-03T07:10:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpWithoutEmail -->
-        <test-method status="PASS" signature="signUpWithoutpassword()[pri:5, instance:com.automation.SignUpTest@4f933fd1]" name="signUpWithoutpassword" duration-ms="1336" started-at="2020-04-03T07:05:41Z" finished-at="2020-04-03T07:05:42Z">
+        <test-method status="PASS" signature="signUpWithoutpassword()[pri:5, instance:com.automation.SignUpTest@2a2d45ba]" name="signUpWithoutpassword" duration-ms="1233" started-at="2020-04-03T07:10:02Z" finished-at="2020-04-03T07:10:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpWithoutpassword -->
       </class> <!-- com.automation.SignUpTest -->
     </test> <!-- SignUp -->
-    <test name="LoginIn" duration-ms="8989" started-at="2020-04-03T07:05:48Z" finished-at="2020-04-03T07:05:56Z">
+    <test name="LoginIn" duration-ms="8724" started-at="2020-04-03T07:10:08Z" finished-at="2020-04-03T07:10:17Z">
       <class name="com.automation.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.LoginTest@28d25987]" name="setUp" is-config="true" duration-ms="0" started-at="2020-04-03T07:05:48Z" finished-at="2020-04-03T07:05:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registrationOfUser()[pri:0, instance:com.automation.LoginTest@28d25987]" name="registrationOfUser" duration-ms="1344" started-at="2020-04-03T07:05:48Z" finished-at="2020-04-03T07:05:49Z">
+        <test-method status="PASS" signature="registrationOfUser()[pri:0, instance:com.automation.LoginTest@61832929]" name="registrationOfUser" duration-ms="1447" started-at="2020-04-03T07:10:08Z" finished-at="2020-04-03T07:10:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationOfUser -->
-        <test-method status="PASS" signature="login()[pri:1, instance:com.automation.LoginTest@28d25987]" name="login" duration-ms="1318" started-at="2020-04-03T07:05:49Z" finished-at="2020-04-03T07:05:50Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.LoginTest@61832929]" name="setUp" is-config="true" duration-ms="0" started-at="2020-04-03T07:10:08Z" finished-at="2020-04-03T07:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.automation.LoginTest@61832929]" name="login" duration-ms="1215" started-at="2020-04-03T07:10:10Z" finished-at="2020-04-03T07:10:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="loginWithEmptyBody()[pri:2, instance:com.automation.LoginTest@28d25987]" name="loginWithEmptyBody" duration-ms="1150" started-at="2020-04-03T07:05:50Z" finished-at="2020-04-03T07:05:51Z">
+        <test-method status="PASS" signature="loginWithEmptyBody()[pri:2, instance:com.automation.LoginTest@61832929]" name="loginWithEmptyBody" duration-ms="1155" started-at="2020-04-03T07:10:11Z" finished-at="2020-04-03T07:10:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithEmptyBody -->
-        <test-method status="PASS" signature="loginWithInvalidEmaid()[pri:3, instance:com.automation.LoginTest@28d25987]" name="loginWithInvalidEmaid" duration-ms="1212" started-at="2020-04-03T07:05:51Z" finished-at="2020-04-03T07:05:53Z">
+        <test-method status="PASS" signature="loginWithInvalidEmaid()[pri:3, instance:com.automation.LoginTest@61832929]" name="loginWithInvalidEmaid" duration-ms="1323" started-at="2020-04-03T07:10:12Z" finished-at="2020-04-03T07:10:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithInvalidEmaid -->
-        <test-method status="PASS" signature="loginWithInvalidPassword()[pri:4, instance:com.automation.LoginTest@28d25987]" name="loginWithInvalidPassword" duration-ms="1199" started-at="2020-04-03T07:05:53Z" finished-at="2020-04-03T07:05:54Z">
+        <test-method status="PASS" signature="loginWithInvalidPassword()[pri:4, instance:com.automation.LoginTest@61832929]" name="loginWithInvalidPassword" duration-ms="1376" started-at="2020-04-03T07:10:13Z" finished-at="2020-04-03T07:10:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithInvalidPassword -->
-        <test-method status="PASS" signature="loginWithoutEmailId()[pri:5, instance:com.automation.LoginTest@28d25987]" name="loginWithoutEmailId" duration-ms="1455" started-at="2020-04-03T07:05:54Z" finished-at="2020-04-03T07:05:55Z">
+        <test-method status="PASS" signature="loginWithoutEmailId()[pri:5, instance:com.automation.LoginTest@61832929]" name="loginWithoutEmailId" duration-ms="1097" started-at="2020-04-03T07:10:15Z" finished-at="2020-04-03T07:10:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithoutEmailId -->
-        <test-method status="PASS" signature="loginWithoutPassword()[pri:6, instance:com.automation.LoginTest@28d25987]" name="loginWithoutPassword" duration-ms="1306" started-at="2020-04-03T07:05:55Z" finished-at="2020-04-03T07:05:56Z">
+        <test-method status="PASS" signature="loginWithoutPassword()[pri:6, instance:com.automation.LoginTest@61832929]" name="loginWithoutPassword" duration-ms="1110" started-at="2020-04-03T07:10:16Z" finished-at="2020-04-03T07:10:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithoutPassword -->
       </class> <!-- com.automation.LoginTest -->
     </test> <!-- LoginIn -->
-    <test name="SignUpAndSignInFlowTest" duration-ms="3091" started-at="2020-04-03T07:06:01Z" finished-at="2020-04-03T07:06:05Z">
+    <test name="SignUpAndSignInFlowTest" duration-ms="2774" started-at="2020-04-03T07:10:22Z" finished-at="2020-04-03T07:10:25Z">
       <class name="com.automation.SignUpAndSignInFlowTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.SignUpAndSignInFlowTest@5e5792a0]" name="setUp" is-config="true" duration-ms="1" started-at="2020-04-03T07:06:01Z" finished-at="2020-04-03T07:06:02Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.SignUpAndSignInFlowTest@ae45eb6]" name="setUp" is-config="true" duration-ms="0" started-at="2020-04-03T07:10:22Z" finished-at="2020-04-03T07:10:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registrationOfUser()[pri:0, instance:com.automation.SignUpAndSignInFlowTest@5e5792a0]" name="registrationOfUser" duration-ms="1812" started-at="2020-04-03T07:06:02Z" finished-at="2020-04-03T07:06:03Z">
+        <test-method status="PASS" signature="registrationOfUser()[pri:0, instance:com.automation.SignUpAndSignInFlowTest@ae45eb6]" name="registrationOfUser" duration-ms="1489" started-at="2020-04-03T07:10:22Z" finished-at="2020-04-03T07:10:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationOfUser -->
-        <test-method status="PASS" signature="login()[pri:1, instance:com.automation.SignUpAndSignInFlowTest@5e5792a0]" name="login" duration-ms="1278" started-at="2020-04-03T07:06:03Z" description="Here token from sign-up api is used as query param , but there is a bug in api, where it is not validating i" finished-at="2020-04-03T07:06:05Z">
+        <test-method status="PASS" signature="login()[pri:1, instance:com.automation.SignUpAndSignInFlowTest@ae45eb6]" name="login" duration-ms="1282" started-at="2020-04-03T07:10:23Z" description="Here token from sign-up api is used as query param , but there is a bug in api, where it is not validating i" finished-at="2020-04-03T07:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->

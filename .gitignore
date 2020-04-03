@@ -14,5 +14,5 @@ Thumbs.db
 */logs/*
 .idea/*
 .swp
-.iml
+/target/*
 
