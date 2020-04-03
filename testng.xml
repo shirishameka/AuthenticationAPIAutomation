@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite" verbose="1">
+    <test name="SignUp">
+        <classes>
+            <class name="com.automation.SignUpTest"/>
+        </classes>
+    </test>
+    <test name="LoginIn">
+        <classes>
+            <class name="com.automation.LoginTest"/>
+        </classes>
+    </test>
+    <test name="SignUpAndSignInFlowTest">
+        <classes>
+            <class name="com.automation.SignUpAndSignInFlowTest"/>
+        </classes>
+    </test>
+</suite>
